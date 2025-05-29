@@ -27,8 +27,9 @@ android {
     }
     buildTypes {
         debug {
-            buildConfigField("String", "BASE_URL", "\"https://api.example.com/\"")
-            buildConfigField("String", "BEARER_TOKEN", "\"Bearer your_debug_token_here\"")
+            buildConfigField("String", "BASE_URL", "\"https://api.themoviedb.org/3/\"")
+            buildConfigField("String", "IMAGE_URL", "\"https://image.tmdb.org/t/p/w500\"")
+            buildConfigField("String", "BEARER_TOKEN", "\"Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2ZGYzODIxYWVhMTk2MDY4ZWY4NDE3NDA3OGJiNDdiZiIsIm5iZiI6MTU5Mzc2NTY0My4yMzMsInN1YiI6IjVlZmVlZjBiYmU3ZjM1MDAzMmE2Y2M4YyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.S1qeof1oEH-cHmpSnPGVb4W61qxkbxcR4Wz0JImrAZs\"")
 
         }
         release {
